@@ -1,0 +1,38 @@
+<template>
+    <image class="icon" src="http://7xklhg.com1.z0.glb.clouddn.com/%E6%89%AB%E4%B8%80%E6%89%AB.png"></image>
+    <view class="btn" @tap="handleScan">扫一扫</view>
+</template>
+<script>
+    import wepy from 'wepy'
+
+    export default class Index extends wepy.page{
+        config = {
+            navigationBarTitleText: 'main'
+        }
+
+        methods={
+            handleScan(){
+
+            }
+        }
+
+        events = {
+
+        }
+
+        onLoad(){
+
+        }
+    }
+
+</script>
+
+<style lang="less">
+    .icon{
+        display: block;
+        margin: 0 auto;
+        width: 128rpx;
+        height: 128rpx;
+        margin-top: 100rpx;
+    }
+</style>
